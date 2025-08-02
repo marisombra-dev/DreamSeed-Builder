@@ -112,8 +112,11 @@ Because you don’t need another brainstorm — you need **a blueprint**.
 ---
 
 🧠 Author
+
 Created by Marisombra — the shadow tide.
+
 A developer, game designer, and bilingual dreamer.
+
 Check out more projects at https://github.com/pattipur
 
 
