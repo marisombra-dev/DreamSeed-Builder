@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+  dreamseed:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dreamseed
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+      - ./outputs:/app/outputs
+      - ./assets:/app/assets
+      - ./logs:/app/logs
+    depends_on:
+      - ollama
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+
+volumes:
+  ollama_data:

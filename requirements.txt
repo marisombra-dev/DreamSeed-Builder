@@ -1,0 +1,9 @@
+streamlit>=1.25
+fpdf2>=2.7.6
+requests>=2.31
+backoff>=2.2.1
+python-dotenv>=1.0.0
+PyYAML>=6.0
+reportlab>=4.0.4
+markdown2>=2.4.10
+typing-extensions>=4.7.1
