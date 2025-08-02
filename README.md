@@ -117,6 +117,6 @@ Created by Marisombra — the shadow tide.
 
 A developer, game designer, and bilingual dreamer.
 
-Check out more projects at https://github.com/pattipur
+Check out more projects at https://github.com/marisombra-dev
 
 
