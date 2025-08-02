@@ -22,10 +22,9 @@ DreamSeed is the bridge.
 ## 🎁 Features
 
 - 🔍 Side-panel input for easy idea capture  
-- 🧠 LLM-powered outline & vision generation (locally or via API)  
-- 📄 Export in Markdown, PDF, or TXT  
-- 🪄 Optional deep-dive prompt engineering built in  
-- 🐋 Supports local Ollama or OpenAI API  
+- 🧠 LLM-powered outline & vision generation   
+- 📄 Export in Markdown, PDF, or TXT    
+- 🐋 Supports local Ollama  
 - 💻 Easy setup, no prior experience required  
 
 ---
