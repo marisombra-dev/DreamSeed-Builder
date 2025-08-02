@@ -24,7 +24,6 @@ Whether you're building an eBook, toolkit, course, or startup MVP, DreamSeed hel
 - ⚡ **Local or Cloud Models** — Use Ollama locally or plug in your OpenAI API key
 
 ---
-
 ## 🚀 Quickstart
 
 ### 1. Clone the repo
@@ -33,14 +32,15 @@ Whether you're building an eBook, toolkit, course, or startup MVP, DreamSeed hel
 git clone https://github.com/your-username/dreamseed.git
 cd dreamseed
 
-2. Install dependencies
+### 2. Install dependencies
 We recommend using a virtual environment:
 
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Start the app
+
+### 3. Start the app
 bash
 Copy
 Edit
@@ -54,6 +54,7 @@ bash
 Copy
 Edit
 docker-compose up --build
+
 📂 Project Structure
 bash
 Copy
@@ -65,17 +66,18 @@ Edit
 ├── .streamlit/config.toml # Theme config (dark mode etc.)
 ├── assets/DejaVuSans.ttf  # PDF font
 ├── outputs/               # Auto-generated DreamBriefs (ignored by Git)
+
 📝 License
 MIT — free for personal + commercial use. Just don’t sell clones without love. 💕
 
 🙌 Acknowledgments
-Built with 🔥, Streamlit, and a little bit of magic
+Built with 🔥, Streamlit, and a little backoff magic
 
 Inspired by every dreamer who has an idea, but no clear path forward
 
 🧠 Author
 Created by Marisombra — the shadow tide.
-Also known as Patricia, a developer, game designer, and bilingual dreamer.
+A developer, game designer, and bilingual dreamer.
 Check out more projects at https://github.com/pattipur
 
-🌱 Start Dreaming
+
