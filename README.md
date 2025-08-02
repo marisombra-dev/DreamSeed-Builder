@@ -1,79 +1,115 @@
-# DreamSeed-Builder
 
-# 🌱 DreamSeed
+---
 
-*A beautifully structured product vision doc, crafted from your idea in minutes.*  
-Use it to brief any LLM, developer, co-founder, or investor.
+````markdown
+# 🌱 DreamSeed Builder
+
+**A beautifully structured product vision doc, crafted from your idea in minutes.**  
+Use it to brief any LLM, developer, co-founder, or investor — and move from spark 💡 to strategy 🚀 faster than ever.
 
 ---
 
 ## ✨ What is DreamSeed?
 
-**DreamSeed** transforms your rough idea into a clean, compelling product document — a **DreamBrief** — in just minutes.
+DreamSeed turns vague inspiration into a clear, actionable concept brief.  
+You give it an idea, audience, and tone — it returns a well-organized document ready to be developed, marketed, or pitched.
 
-Whether you're building an eBook, toolkit, course, or startup MVP, DreamSeed helps you clarify your vision before you start creating.
+We position ourselves **between the idea and the execution**.  
+DreamSeed is the bridge.
+
+---
+
+## 🎁 Features
+
+- 🔍 Side-panel input for easy idea capture  
+- 🧠 LLM-powered outline & vision generation (locally or via API)  
+- 📄 Export in Markdown, PDF, or TXT  
+- 🪄 Optional deep-dive prompt engineering built in  
+- 🐋 Supports local Ollama or OpenAI API  
+- 💻 Easy setup, no prior experience required  
 
 ---
 
-## 🛠️ Features
-
-- 🧠 **Smart Idea Expansion** — From a short idea prompt, generate a full outline and positioning doc
-- ✍️ **Tone, Story & Audience** — Tailor the voice to match your vibe
-- 📄 **Downloadable Outputs** — Get your DreamBrief as Markdown, PDF, or TXT
-- 🌚 **Dark Mode** — Because of course we have dark mode
-- ⚡ **Local or Cloud Models** — Use Ollama locally or plug in your OpenAI API key
-
----
 ## 🚀 Quickstart
 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/dreamseed.git
-cd dreamseed
+git clone https://github.com/pattipur/DreamSeed-Builder.git
+cd DreamSeed-Builder
+````
 
 ### 2. Install dependencies
+
 We recommend using a virtual environment:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 
 ### 3. Start the app
-bash
-Copy
-Edit
+
+```bash
 streamlit run app.py
-💡 For local generation, install Ollama and make sure it's running on localhost:11434.
+```
 
-🐳 Optional: Run with Docker
-Build and run:
+💡 For **local generation**, install [Ollama](https://ollama.com) and make sure it’s running on:
 
-bash
-Copy
-Edit
+```
+http://localhost:11434
+```
+
+---
+
+## 🐳 Optional: Run with Docker
+
+If you'd rather use Docker:
+
+```bash
 docker-compose up --build
+```
 
-📂 Project Structure
-bash
-Copy
-Edit
-.
-├── app.py                 # Main Streamlit app
-├── requirements.txt       # Python dependencies
-├── docker-compose.yml     # For optional Docker support
-├── .streamlit/config.toml # Theme config (dark mode etc.)
-├── assets/DejaVuSans.ttf  # PDF font
-├── outputs/               # Auto-generated DreamBriefs (ignored by Git)
+---
 
-📝 License
-MIT — free for personal + commercial use. Just don’t sell clones without love. 💕
+## 🛠️ Tech Stack
 
-🙌 Acknowledgments
-Built with 🔥, Streamlit, and a little backoff magic
+* `Streamlit` for UI
+* `FPDF` for PDF export
+* `Ollama` or `OpenAI` for generation
+* `Python` 3.10+
+* `Docker` (optional)
 
-Inspired by every dreamer who has an idea, but no clear path forward
+---
+
+## 📂 File Structure
+
+```
+dreamseed-builder/
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .streamlit/
+│   └── config.toml
+├── outputs/
+│   ├── (your generated files will appear here)
+```
+
+---
+
+## 🧠 Why DreamSeed?
+
+Because ideas deserve better than a napkin scribble or lost Notion tab.
+Because the first step is often the hardest.
+Because you don’t need another brainstorm — you need **a blueprint**.
+
+---
+
+## 🪪 License
+
+[MIT License](LICENSE)
+
+---
 
 🧠 Author
 Created by Marisombra — the shadow tide.
