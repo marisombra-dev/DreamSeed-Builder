@@ -1,0 +1,5 @@
+streamlit
+requests
+fpdf
+backoff
+pillow
